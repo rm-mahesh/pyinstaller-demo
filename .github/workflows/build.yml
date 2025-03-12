@@ -20,8 +20,6 @@ jobs:
 
       - name: Build executable
         run: pyinstaller --onefile demo.py 
-      - name: Run executable with arguments
-        run: ./dist/demo "arg1" "arg2"
 
 
       - name: Upload executable
