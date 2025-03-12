@@ -6,6 +6,8 @@ def main():
         print(f"Arguments passed: {sys.argv[1:]}")
     else:
         print("No arguments provided.")
+    input("\nPress Enter to exit...")  # This keeps the window open until you press Enter
+
 
 if __name__ == "__main__":
     main()
