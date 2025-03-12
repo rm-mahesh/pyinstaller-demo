@@ -1,1 +1,1 @@
-###This repo is intented to demonstrate pyinstaller
+### This repo is intented to demonstrate pyinstaller
