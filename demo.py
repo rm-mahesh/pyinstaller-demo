@@ -5,6 +5,7 @@ def main():
     i = 0
     while i < 50000:
         print(i)
+        i += 1
     if len(sys.argv) > 1:
         print(f"Arguments passed: {sys.argv[1:]}")
     else:
