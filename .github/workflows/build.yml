@@ -1,7 +1,7 @@
 name: Build Executable
 
 on: 
-    workflow_dispatch:
+    push:
 
 jobs:
   build:
@@ -21,7 +21,8 @@ jobs:
       - name: Build executable
         run: pyinstaller --onefile demo.py 
       - name: Run executable with arguments
-        run: ./dist/main "arg1" "arg2"
+        run: ./dist/demo "arg1" "arg2"
+
 
       - name: Upload executable
         uses: actions/upload-artifact@v4
